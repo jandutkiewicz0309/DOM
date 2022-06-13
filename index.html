@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model (DOM)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form form-container">
+        <form class="rorm form--add">
+            <h1 class="form__title">Add an element to the DOM</h1>
+            <input type="text" class="form__input" placeholder="element HTML" required>
+            <input type="text" class="form__input" placeholder="text in an HTML element">
+            <input type="text" class="form__input" placeholder="attribute">
+            <input type="text" class="form__input" placeholder="attribute value">
+            <button class="form__button">Add item</button>
+        </form>
+        <form class="form form--search">
+            <h1 class="form__title">Search the DOM</h1>
+            <input type="text" class="form__input" required placeholder="name of the element">
+            <input type="submit" class="form__button" value="find and show information">
+        </form>
+    </div>
+    <div class="result"></div>
+    <div class="content"></div>
+    <footer class="footer">Footer</footer>
+    <script src="main.js"></script>
+</body>
+</html>
