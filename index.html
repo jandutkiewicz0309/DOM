@@ -11,15 +11,15 @@
     <div class="form-container">
         <form class="form form--add">
             <h1 class="form__title">Add an element to the DOM</h1>
-            <input type="text" class="form__input" placeholder="element HTML" required>
-            <input type="text" class="form__input" placeholder="text in an HTML element">
-            <input type="text" class="form__input" placeholder="attribute">
-            <input type="text" class="form__input" placeholder="attribute value">
+            <input type="text" class="form__input" name="node" placeholder="element HTML" required>
+            <input type="text" class="form__input" name="text" placeholder="text in an HTML element">
+            <input type="text" class="form__input" name="attr" placeholder="attribute">
+            <input type="text" class="form__input" name="value" placeholder="attribute value">
             <button class="form__button">Add item</button>
         </form>
         <form class="form form--search">
             <h1 class="form__title">Search the DOM</h1>
-            <input type="text" class="form__input" required placeholder="name of the element">
+            <input type="text" class="form__input" name="searching-element" required placeholder="name of the element">
             <input type="submit" class="form__button" value="find and show information">
         </form>
     </div>
